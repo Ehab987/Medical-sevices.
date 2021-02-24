@@ -1,0 +1,140 @@
+body{
+    font-size: 20px;
+    background-color: #111;
+}
+.brand{
+    margin-left: 20px;
+    margin-right: 50px;
+    color: $mainColor;
+}
+
+.formStyle{
+    
+    border: 2px solid #000;
+    margin-top: 60px;
+    padding: 40px;
+    background-color:$secondColor;
+    border-radius: 20px;
+    h2{
+        text-align: center;
+        color: $mainColor;
+    }
+}
+.la{
+    color: $mainColor;
+    margin: 15px;
+    font-size: large;
+}
+.buttonStyle{
+    margin-top: 15px;
+    display: block;
+    margin-left: 50%;
+
+}
+.title{
+    background-color:$secondColor;
+    padding: 20px;
+    text-align: center;
+    color: $mainColor;
+    border-radius: 12px;
+}
+.labelStyle{
+    text-align: center;
+    display: block;
+    margin: 40px 0 15px 0;
+    font-size: 20px;
+    color: $white;
+}
+.table{
+    border: 2px solid #e7ebf1;
+}
+.LoginStyle{
+
+    margin-top: 100px;
+}
+
+p{
+    color: $text_color;
+}
+
+h3{
+    color: $white;
+}
+
+        //   Navbar 
+
+.navStyle {
+    color: $white;
+    background-color:$secondColor;
+}
+  
+    
+.dropdown-menu{
+    background-color: $secondColor;
+    li{
+        a{
+            background-color: $secondColor;
+        }
+    }
+}
+
+ .btn-primary{
+    background-color: $mainColor;
+    &:hover{
+        background-color: $mainColor;
+    }
+
+}
+
+.link{
+    color: $white;
+    &:hover{
+        color: $mainColor;
+        background-color: $secondColor;
+        text-decoration: none;
+    }
+}
+
+.navbar-dark .navbar-brand {
+    color: $white;
+    &:hover{
+        color:$mainColor;
+    }
+ 
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: $white;
+    &:hover{
+        color: $mainColor;
+    }
+
+}
+.groupStyle{
+    margin-bottom: 40px;
+
+}
+.table th, .table td{
+    color: $text_color;
+}
+.groupStyleHeader{
+    margin-bottom:24px;
+}
+.card{
+    background-color: $secondColor;
+    color: $mainColor;
+    border: 2px solid #e7ebf1;
+}
+.card-header{
+    border: 2px solid #454d55;
+}
+.btn-link{
+    color: $mainColor;
+}
+ .alert-danger{
+    background-color:$secondColor;
+    color: red;
+ }
+.alert-success{
+    background-color:$secondColor;
+    color: $mainColor;
+ }
